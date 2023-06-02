@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --my-darkblue: #2C3E50;
+    --my-lightblue: #BDD4DE;
+    --my-orange: #FFA07A;
+    --my-gray: #D5D5D5;
+    --my-grren: #38EB83;
+  }
+
+body{
+    background: linear-gradient(45deg, black, var(--my-darkblue) 80%, var(--my-lightblue));
+    color: var(--my-gray);
+}
