@@ -19,8 +19,3 @@ body{
 h1,h3{
     color: var(--my-green)
 }
-
-a{
-    text-decoration: none;
-    color:var(--my-darkblue);
-}

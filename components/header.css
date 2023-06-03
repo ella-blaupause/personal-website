@@ -15,8 +15,14 @@ header{
     gap: 8px;
 }
 
-.nav_link{
+.nav_li{
     background-color: var(--my-orange);
     padding: 5px 14px;
     border-radius: 5px;
+   
+}
+
+.nav_li a{
+    text-decoration: none;
+    color:var(--my-darkblue);
 }
