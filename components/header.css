@@ -3,7 +3,20 @@
 header{
     background-color: var(--my-darkblue);
     position: sticky;
-    justify-content: center;
     top:0;
-    height: 50px;
+    padding: 8px;
+}
+
+.nav_bar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 8px;
+}
+
+.nav_link{
+    background-color: var(--my-orange);
+    padding: 5px 14px;
+    border-radius: 5px;
 }
