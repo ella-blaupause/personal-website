@@ -1,26 +1,37 @@
-.ueberMichDiv{
-    display: grid;
-    grid-template-areas:
-    "name name"
-    "ueber-id  image"
-    "paragraph  image";
-
-}
-
 .my-name{
-    grid-area: name;
     text-shadow: 1px 1px 2px black;
 }
 
-#ueber-mich{
-    grid-area: ueber-id;
-}
-
-.über-mich > p{
-    grid-area: paragraph;
-}
-
 .image-style{
-    grid-area: image;
+
     border-radius: 10px 25%;
 }
+
+@media (min-width: 1250px) {
+    .ueberMichDiv{
+        display: grid;
+        grid-template-areas:
+        "name name"
+        "ueber-id  image"
+        "paragraph  image";
+    
+    }
+
+
+    .my-name{
+    grid-area: name;
+    text-shadow: 1px 1px 2px black;
+    }
+
+    #ueber-mich{
+        grid-area: ueber-id;
+    }
+
+    .über-mich > p{
+        grid-area: paragraph;
+    }
+
+    
+    
+  }
+  
