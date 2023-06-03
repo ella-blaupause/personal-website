@@ -7,20 +7,25 @@
     border-radius: 10px 25%;
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 900px) {
     .ueberMichDiv{
         display: grid;
         grid-template-areas:
         "name name"
         "ueber-id  image"
         "paragraph  image";
-    
+
     }
 
 
     .my-name{
-    grid-area: name;
-    text-shadow: 1px 1px 2px black;
+        grid-area: name;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .image-style{
+        grid-area: image;
+        border-radius: 10px 25%;
     }
 
     #ueber-mich{
@@ -30,8 +35,6 @@
     .über-mich > p{
         grid-area: paragraph;
     }
-
-    
     
   }
   
