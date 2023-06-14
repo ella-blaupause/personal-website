@@ -20,3 +20,7 @@ body{
 h1,h3{
     color: var(--my-green)
 }
+
+main{
+  margin: 30px;
+}
