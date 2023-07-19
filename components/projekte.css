@@ -1,0 +1,10 @@
+.projekteDiv{
+    width: 100vw ;
+    background-color: var(--my-gray);
+    padding: 10px 30px;
+}
+
+.projekteDiv li{
+    list-style: none;
+
+}

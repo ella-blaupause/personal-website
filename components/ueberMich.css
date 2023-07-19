@@ -6,6 +6,12 @@
 
     border-radius: 10px 25%;
 }
+.ueberMichBackground{
+    width: 100vw;
+    margin: 0;
+    padding: 10px 30px;
+    background-color: var(--my-lightblue);
+}
 
 @media (min-width: 900px) {
     .ueberMichDiv{
