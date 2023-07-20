@@ -4,6 +4,7 @@
   }
   
   :root {
+    --my-blue: #3F5765;
     --my-darkblue: #2C3E50;
     --my-lightblue: #BDD4DE;
     --my-orange: #FFA07A;
@@ -12,15 +13,11 @@
   }
 
 body{
-    background: linear-gradient(45deg, black, var(--my-darkblue) 80%, var(--my-lightblue));
-    color: var(--my-gray);
-    margin: 0 5vw 0 5vw;
+    color: var(--my-darkblue);
+    margin: 0;
 }
 
 h1,h3{
-    color: var(--my-green)
-}
-
-main{
-  margin: 30px;
+    color: var(--my-green);
+    text-shadow: 1px 1px 2px black;
 }

@@ -1,0 +1,13 @@
+.kontaktDiv{
+    width: 100vw ;
+    background-color: var(--my-lightblue);
+    padding: 10px 30px;
+}
+
+.kontaktDiv li {
+    list-style: none;
+}
+
+.kontaktDiv ul{
+    padding: 0;
+}

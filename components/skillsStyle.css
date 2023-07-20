@@ -3,3 +3,15 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.skillDiv{
+    width: 100vw ;
+    background-color: var(--my-blue);
+    padding: 10px 30px;
+}
+
+.skillDiv li{
+    margin: 5px;
+    text-align: center;
+    color: var(--my-gray);
+}

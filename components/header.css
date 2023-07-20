@@ -1,10 +1,11 @@
 @import "./global.css";
 
 header{
-    background-color: var(--my-darkblue);
+    background-color: #2C3E50;
     position: sticky;
     top:0;
     padding: 8px;
+    width: 100vw;
 }
 
 .nav_bar{
